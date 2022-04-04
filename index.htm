@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <div id="programa">
+            <div id="logo">
+                <a href="https://www.aluracursos.com/" target="_blank">
+                    <img src="images/logo-alura.svg" alt="Alura" class="logo">
+                </a>
+            </div>
+            <div class="area-texto">
+                <textarea name="texto-entrada" id="texto-entrada" cols="30" rows="10"
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="condiciones">
+                <p><img src="images/admiracion.png" alt="admiracion"> Acepta acentos, mayúsculas y caracteres especiales.
+                </p>
+            </div>
+            <div id="botones-programa">
+                <button class="boton" id="encriptar">Encriptar</button>
+                <button class="boton" id="desencriptar">Desencriptar</button>
+                <button class="boton" id="pegar">Pegar</button>
+            </div>
+        </div>
+        <div id="resultado">
+            <div id="text-resultado">
+                <textarea name="area-resultado" id="area-resultado" cols="17" rows="10" disabled
+                    class="transparente"></textarea>
+                <img src="images/imagen-muneco.svg" alt="sinencontrar" id="figura">
+            </div>
+            <div id="prueba">
+                <p id="ninguno">Ningún mensaje fue encontrado</p>
+                <p id="ninguno-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div id="botones-resultado">
+                <button class="boton transparente" id="copiar">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Todos los derechos reservados 
+                <a href="mailto:ingmarcela27@gmail.com" class="link">ingmarcela27</a>
+                <a href="https://github.com/ingmarcela27" target="_blank">
+                    <img src="/images/github.png" alt="GitHub" class="redes">
+                </a>
+                <a href="https://www.linkedin.com/in/ingrid-marcela-vargas-rodr%C3%ADguez-88940b167/" target="_blank">
+                    <img src="/images/linkedin.png" alt="LinkedIn" class="redes">
+                </a>
+            </p>
+        </div>
+        <div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/copiar-pegar.js"></script>
+    <script src="js/encriptador.js"></script>
+</body>
+
+</html>
