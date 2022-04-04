@@ -27,4 +27,4 @@ Cambiar palabras con las siguientes reglas:
 ![Interfaz](https://i.imgur.com/bgyPyMj.png "Interfaz")
 
 ### Sitio WEB
-[Encriptador](https://ingmarcela27.github.io/-ChallengeOneLogicaLatam/)
+[Encriptador](https://ingmarcela27.github.io/Alura-Challenge-Oracle-One-Logica-de-Programacion-Encriptador-de-texto/)
